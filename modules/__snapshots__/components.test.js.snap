@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Draw game creation snapshot 1`] = `
+<div
+  class="resultList"
+>
+  <p>
+    Draw.
+  </p>
+  <ul
+    class="weaponsList"
+  >
+    <li>
+      <img
+        alt="paper"
+        src="./pics/paper.png"
+        width="100"
+      />
+    </li>
+    <li>
+      VS.
+    </li>
+    <li>
+      <img
+        alt="scissors"
+        src="./pics/scissors.png"
+        width="100"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Draw game creation snapshot with spock 1`] = `
+<div
+  class="resultList"
+>
+  <p>
+    Draw.
+  </p>
+  <ul
+    class="weaponsList"
+  >
+    <li>
+      <img
+        alt="spock"
+        src="./pics/spock.png"
+        width="100"
+      />
+    </li>
+    <li>
+      VS.
+    </li>
+    <li>
+      <img
+        alt="spock"
+        src="./pics/spock.png"
+        width="100"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`First winner creation snapshot 1`] = `
+<div
+  class="resultList"
+>
+  <p>
+    <b>
+      scissors
+    </b>
+     wins.
+  </p>
+  <ul
+    class="weaponsList"
+  >
+    <li>
+      <img
+        alt="scissors"
+        src="./pics/scissors.png"
+        width="100"
+      />
+    </li>
+    <li>
+      VS.
+    </li>
+    <li>
+      <img
+        alt="paper"
+        src="./pics/paper.png"
+        width="100"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`First winner creation snapshot for a player 1`] = `
+<div
+  class="resultList"
+>
+  <p>
+    You 
+    <b>
+      win
+    </b>
+    .
+  </p>
+  <ul
+    class="weaponsList"
+  >
+    <li>
+      <img
+        alt="scissors"
+        src="./pics/scissors.png"
+        width="100"
+      />
+    </li>
+    <li>
+      VS.
+    </li>
+    <li>
+      <img
+        alt="paper"
+        src="./pics/paper.png"
+        width="100"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Image creation snapshot 1`] = `
+<img
+  alt="undefined"
+  src="./pics/undefined.png"
+  width="100"
+/>
+`;
+
+exports[`Second winner creation snapshot 1`] = `
+<div
+  class="resultList"
+>
+  <p>
+    <b>
+      scissors
+    </b>
+     wins.
+  </p>
+  <ul
+    class="weaponsList"
+  >
+    <li>
+      <img
+        alt="paper"
+        src="./pics/paper.png"
+        width="100"
+      />
+    </li>
+    <li>
+      VS.
+    </li>
+    <li>
+      <img
+        alt="scissors"
+        src="./pics/scissors.png"
+        width="100"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Second winner creation snapshot for a player 1`] = `
+<div
+  class="resultList"
+>
+  <p>
+    You 
+    <b>
+      lose
+    </b>
+    .
+  </p>
+  <ul
+    class="weaponsList"
+  >
+    <li>
+      <img
+        alt="paper"
+        src="./pics/paper.png"
+        width="100"
+      />
+    </li>
+    <li>
+      VS.
+    </li>
+    <li>
+      <img
+        alt="scissors"
+        src="./pics/scissors.png"
+        width="100"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Spock snapshot 1`] = `
+<img
+  alt="You have been Spocked"
+  class="spocked"
+  src="./pics/spocked.jpg"
+  title="You have been Spocked"
+/>
+`;
+
+exports[`Weapons creation snapshot 1`] = `
+<ul
+  class="weaponsList"
+>
+  <li>
+    <img
+      alt="firstWeap"
+      class="weapon"
+      src="/pics/firstWeap.png"
+      width="100"
+    />
+  </li>
+  <li>
+    <img
+      alt="secondWeap"
+      class="weapon"
+      src="/pics/secondWeap.png"
+      width="100"
+    />
+  </li>
+</ul>
+`;

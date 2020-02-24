@@ -1,0 +1,28 @@
+{
+  "name": "testNiceCactus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./modules/main.js",
+  "scripts": {
+    "start": "http-server ./",
+    "dev": "nodemon --exec http-server ./",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "Jérémy Giuseppi",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "0.12.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.8.4",
+    "babel-jest": "25.1.0",
+    "jest": "25.1.0",
+    "nodemon": "2.0.2"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "verbose": true
+  }
+}
