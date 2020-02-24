@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/yereby/tnc/workflows/Node.js%20CI/badge.svg)
+
 # Rock paper scissors
 
 Les règles du jeu sont disponibles sur https://en.wikipedia.org/wiki/Rock_paper_scissors
