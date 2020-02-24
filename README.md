@@ -29,7 +29,7 @@ L'interface de coverage sera disponible dans le dossier "coverage".
 ## Divers
 
 Il est possible de jouer à la variante Spock lizard. Il suffit de remplacer dans
-le fichier `./modules/weapons.js` la dernier ligne
+le fichier `./modules/weapons.js` la dernière ligne
 ```
 export default normalPRS
 ```
